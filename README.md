@@ -1,4 +1,4 @@
-# Django Project Setup and Run Instructions
+# Setup this project
 
 ## Project Overview
 This project provides basic functionality for user authentication and company management, including login, logout, user detail viewing/editing, and company detail viewing.
@@ -14,28 +14,13 @@ This project provides basic functionality for user authentication and company ma
 1. **Clone the Repository**:
    ```bash
    git clone <repository-url>
-   cd <repository-directory>
+   cd company_user_management
    ```
 
 2. **Create and Activate a Virtual Environment**:
    ```bash
    python -m venv env
    source env/bin/activate  # On Windows: env\Scripts\activate
-   ```
-
-3. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Apply Migrations**:
-   ```bash
-   python manage.py migrate
-   ```
-
-5. **Run the Server**:
-   ```bash
-   ./run.sh
    ```
 
 ## Single Run Command
@@ -56,13 +41,8 @@ Then execute the script:
 
 ## Project Structure
 - `manage.py`: Django's management script.
-- `app_name/`: The application directory containing models, views, templates, and forms.
+- `management/`: The application directory containing models, views, templates, and forms.
 - `requirements.txt`: Lists Python dependencies for the project.
 - `run.sh`: A script to set up and run the project.
 - `.gitignore`: Specifies files and directories to exclude from Git tracking.
 
-## Notes
-- Update the `<repository-url>` in the commands above with your GitHub repository URL.
-- Modify the `run.sh` script as needed for custom configurations.
-
----
