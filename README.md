@@ -44,5 +44,4 @@ Then execute the script:
 - `management/`: The application directory containing models, views, templates, and forms.
 - `requirements.txt`: Lists Python dependencies for the project.
 - `run.sh`: A script to set up and run the project.
-- `.gitignore`: Specifies files and directories to exclude from Git tracking.
 
